@@ -1,0 +1,11 @@
+########################
+# Files ignored by Git #
+########################
+
+
+**/.idea/workspace.xml
+**/.idea/tasks.xml
+**/.idea/mobilink5.iml
+**/.idea/workspace.xml
+
+.idea/*
