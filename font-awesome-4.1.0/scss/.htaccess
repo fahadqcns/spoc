@@ -1,0 +1,12 @@
+# Author: Nauman Idrees
+# Date: 06/04/2015
+
+# disable directory browsing
+Options All -Indexes
+
+# prevent folder listing
+IndexIgnore *
+
+# secure directory by disabling script execution
+AddHandler cgi-script .php .pl .py .jsp .asp .htm .shtml .sh .cgi
+Options -ExecCGI

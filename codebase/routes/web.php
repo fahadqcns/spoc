@@ -11,7 +11,11 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('/', function (Request $request) {
     //return view('welcome');
-	return view('home', ['name' => 'test']);
+	//$url = $request->path();
+	return view('home', ['title' => 'test',
+						 'SITE_URL' => 'http://localhost/projects/laravel/laravel54/mobilink5',
+						'url' => 'http://localhost/projects/laravel/laravel54/mobilink5',
+	]);
 });
