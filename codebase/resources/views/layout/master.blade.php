@@ -23,7 +23,7 @@
             <input type="hidden" id="site_url" value="{{$SITE_URL}}" />
         </div>
         <div class="spoc">
-            <span>Hello, Fahad Khalid</span><br />
+            <span>Hello, Khalid Hussain</span><br />
             <span>Redhorse Inc.</span><br /><br />
             <span id="logout-btn">
                 <form name="logout" method="post" action="{{$SITE_URL}}/controller/logout.php">
@@ -54,8 +54,7 @@
     @yield('content')
 
     <div class="clear"></div>
-    <footer>&copy; Copyrights  Mobilink. All Rights Reserved. Powered By:
-        <a href="http://www.evampsaanga.com" target="_blank">Evamp &amp; Saanga</a></footer>
+    <footer>Copyrights &copy; {{ date('Y') }}, RedHorse Inc.</footer>
 
 </div>
 

@@ -61,7 +61,7 @@ h2 {
 }
 
 .home_content h3{
-	color:red;
+	color:292B77;
 	font-weight:bold;
 	padding:6px 0 3px 6px;
 	margin:0;
@@ -145,7 +145,7 @@ main-content {
 	
 	}				
 .sidebar-menu ul li.menu-title	{
-	background:#E93536;
+	background:#292B77;
 	color:#fff;
 	font-weight:bold;
 	
@@ -179,7 +179,7 @@ main-content {
 	display: block;
 	clear: both;
 	/*overflow: hidden;*/
-	border-bottom: 2px solid #E93536;
+	border-bottom: 2px solid #292B77;
 	/*border-left:2px solid #f6f6f6;
 	border-right:2px solid #f6f6f6;*/
 	background: #f6f6f6;
@@ -240,11 +240,11 @@ main-content {
 	}	
 	
 .datagrid-header-row{
-	background:#E93536;
+	background:#292B77;
 	}
 	
 .datagrid-header-inner{
-	background:#E93536;
+	background:#292B77;
 	}			
 	
 /********************************************   page view two *****************************************************/	
@@ -292,7 +292,7 @@ main-content {
 /********************************************   accordian table css *****************************************************/	
 
 table.tftable {font-size:12px;color:#333333;width:100%;border-width: 0px;border-color: #729ea5;border-collapse: collapse;}
-table.tftable th {font-size:12px;background-color:#E93536;border-width: 0px;padding: 8px;border-style: solid;text-align:left;color: #fff;}
+table.tftable th {font-size:12px;background-color:#292B77;border-width: 0px;padding: 8px;border-style: solid;text-align:left;color: #fff;}
 table.tftable tr {background-color:#ffffff;}
 table.tftable td {font-size:12px;border-width: 0px;padding: 8px;border-style: solid;border-color: #729ea5;}
 
@@ -393,7 +393,7 @@ table.tftable td {font-size:12px;border-width: 0px;padding: 8px;border-style: so
 }	
 #line-details-header li{
 	font-size: 12px;
-	background-color: #E93536;
+	background-color: #292B77;
 	border: 1px solid #fff;
 	list-style:none;
 	color: #fff;
@@ -476,11 +476,11 @@ ul#line-details-header{
 .sub_pkg_none { width:100%;float:left;margin:40px 0 10px;}	
 .content-title {
 	font-size: 18px;
-	color: red;
+	color: 292B77;
 	}
 .choice-type {
 	font-size: 18px;
-	color: red;
+	color: 292B77;
 	}
 
 
@@ -493,7 +493,7 @@ ul#line-details-header{
 .img-icons1{ border:none;cursor:pointer; }
 span .img-icons { margin-top:0; }	
 .logout{
-	background: #E93536;
+	background: #292B77;
 	padding: 5px;
 	text-decoration: none;
 	color: #fff;
@@ -501,7 +501,7 @@ span .img-icons { margin-top:0; }
 	margin-left: 20px;
 	}	
 tr.head_row{
-	background: #E93536;
+	background: #292B77;
 	color:#fff;
 	height:50px;
 	}
@@ -559,7 +559,7 @@ tr.head_row{
 	clear:both;
 	}	*/
 .priority{
-	background:#E93536;
+	background:#292B77;
 	}	
 
 
@@ -773,7 +773,7 @@ tr.head_row{
 .line_details tr td div { margin:0;color: #000;min-height:20px;float:left;width:100%;line-height:15px; }
 .line_details tr td div:first-child { margin-top:8px; }
 .line_details #line-details-rows tr td div:first-child { margin-top:0px; }
-#error_msg { border:2px solid #E93536;background-color:#fff; color:#000;padding:10px 15px; }
+#error_msg { border:2px solid #292B77;background-color:#fff; color:#000;padding:10px 15px; }
 #succes_msg { border:2px solid #085A18;background-color:#fff; color:#000;padding:10px 15px; }
 
 .go_button2 {
@@ -787,7 +787,7 @@ tr.head_row{
 
 #wrapper_your_order { /*float:left;*/ }
 #wrapper_your_order h3 { display:inline; float:left; }
-#your_ord { float: left;font-size: 10px;margin: 6px 0 0 5px;color:#E93536; }
+#your_ord { float: left;font-size: 10px;margin: 6px 0 0 5px;color:#292B77; }
 .services-ordered ul { margin:15px auto auto;}
 .services-ordered ul li { cursor:pointer;list-style:square;color:#0066FF;text-decoration:underline; }
 #reopen_order { position:relative; left:10px;/* 20px;*/ }
@@ -968,7 +968,7 @@ footer a:hover { font-size:10px;text-decoration:none; }
 #complaints-div #divfilefields div { margin:10px auto; }
 #complaints-div .margin-top-5 { margin-top:5px;} 
 
-.red { color:#F00; }
+.red { color:#292B77; }
 
 .services-ordered table.complaints td { line-height:16px; }
 .services-ordered table.complaints td ul { margin:0 0 0 15px;padding:0; }
