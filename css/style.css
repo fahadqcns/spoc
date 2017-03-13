@@ -216,7 +216,7 @@ main-content {
 	text-decoration:none;
 	background:#fff;
 	padding:10px;
-	color:#e93635;
+	color:#292B77;
 	font-weight:bold;
 	}	
 	
@@ -227,12 +227,12 @@ main-content {
 	text-decoration:none;
 	background:#fff;
 	padding:10px;
-	color:#e93635;
+	color:#292B77;
 	}					
 	
 .navigation ul li a{
 	text-decoration:none;
-	color:#e93635;
+	color:#292B77;
 	}	*/
 	
 .panel-header{
@@ -316,7 +316,7 @@ table.tftable td {font-size:12px;border-width: 0px;padding: 8px;border-style: so
 	}
 	
 .serv-cat-title{
-	background:#E93635;
+	background:#292B77;
 	
 	width:275px;
 	padding:5px;
@@ -339,7 +339,7 @@ table.tftable td {font-size:12px;border-width: 0px;padding: 8px;border-style: so
 
 .add-bolts-ons { /*padding:6px;*/ }
 .enterprise-serv-title{
-	background:#E93635;
+	background:#292B77;
 	display:inline-block;
 	width:475px;
 	padding:5px;
@@ -365,7 +365,7 @@ table.tftable td {font-size:12px;border-width: 0px;padding: 8px;border-style: so
 	padding: 20px 5px;
 	}	
 .serv-type-title{
-	background:#E93635;
+	background:#292B77;
 	display:inline-block;
 	width:475px;
 	padding:5px;
@@ -431,7 +431,7 @@ ul#line-details-header{
 	}
 		
 .bolt-cat-title{
-	background:#E93635;
+	background:#292B77;
 	display:inline-block;
 	width:690px;
 	padding:5px;
@@ -642,7 +642,7 @@ tr.head_row{
 	margin:0;
 	border-right: 1px solid #cecece;
 	border-bottom: 1px solid #cecece;
-	color:#E93635;
+	color:#292B77;
 }
 
 #main-menu li a:hover {
@@ -677,7 +677,7 @@ tr.head_row{
 }
 
 #main-menu li ul li a:hover {
-	background-color:#E93635;
+	background-color:#292B77;
 	color:#fff;	
 }
 #main-menu li a#new-ord { cursor:default; }

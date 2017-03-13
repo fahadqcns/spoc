@@ -1,12 +1,10 @@
 @extends('layout.master')
+
+@section('title', 'Home | SPOC Portals')
+
 @section('slider')
     <div class="slider-imgs">
         <img src="{{$SITE_URL}}/images/main-home-slider041.png" alt="" usemap="#map" />
-        <map name="map">
-            <area shape="rect" coords="30, 120, 130, 142"
-                  href="http://www.mobilink.com.pk/business/experience/services/online-customer-portal"
-                  target="blank"  />
-        </map>
     </div>
 @stop
 

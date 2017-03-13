@@ -1,5 +1,4 @@
 $(function() {
-	alert('ttt');
 	$('#main-menu > li').bind('mouseover', openSubMenu);
 	$('#main-menu > li').bind('mouseout', closeSubMenu);
 	

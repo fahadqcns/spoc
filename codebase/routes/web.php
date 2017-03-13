@@ -12,7 +12,5 @@
 */
 
 Route::get('/', function () {
-	return view('home', ['title' => 'Home | SPOC Portal',
-						 'SITE_URL' => 'http://localhost/projects/laravel/laravel54/spoc',
-	]);
+	return view('home', ['SITE_URL' => 'http://localhost/projects/laravel/laravel54/spoc']);
 });

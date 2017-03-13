@@ -4,11 +4,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="description" content="Mobilink Spoc Request Management Portal">
-    <meta name="keywords" content="mobilink, mobilinkgsm, spoc portal, mobilink spoc portal, mobilinkgsm spoc portal,
-    mobilink request management, spoc request management, spoc request, spoc management" />
-    <meta name="author" content="Evamp &amp; Saanga - www.evampsaanga.com">
-    <title>{{$title}}</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="" />
+    <meta name="author" content="">
+    <title>@yield('title')</title>
     <link rel="shortcut icon" type="image/x-icon" href="{{$SITE_URL}}/images/favicon.ico">
     <link rel="stylesheet" href="{{$SITE_URL}}/css/jquery-ui.css" />
     <link rel="stylesheet" href="{{$SITE_URL}}/css/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
@@ -19,7 +18,7 @@
 <div class="main-wrapper">
     <div class="header-wrapper">
         <div class="logo">
-            <a href="index.php"><img src="{{$SITE_URL}}/images/detail_03.png" border="0" /></a>
+            <a href="{{$SITE_URL}}/index.php"><img src="{{$SITE_URL}}/images/detail_03.png" border="0" /></a>
             <input type="hidden" id="site_url" value="{{$SITE_URL}}" />
         </div>
         <div class="spoc">
@@ -34,7 +33,7 @@
         </div>
         <div class="navigation">
             <ul id="main-menu">
-                <li><a href="index.php">Home</a></li>
+                <li><a href="{{$SITE_URL}}/index.php">Home</a></li>
                 <li><a id="new-ord" href="#">New Orders</a>
                     <ul>
                         <li><a href="{{$SITE_URL}}/order/devices.php">Devices</a></li>
@@ -54,7 +53,7 @@
     @yield('content')
 
     <div class="clear"></div>
-    <footer>Copyrights &copy; {{ date('Y') }}, RedHorse Inc.</footer>
+    <footer>Copyrights &copy; {{ date('Y') }},cf RedHorse Inc.</footer>
 
 </div>
 
