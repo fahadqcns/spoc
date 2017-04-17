@@ -11,6 +11,9 @@
 |
 */
 
-Route::get('/', function () {
+/*Route::get('/', function () {
 	return view('home', ['SITE_URL' => 'http://localhost/projects/laravel/laravel54/spoc']);
-});
+});*/
+
+Route::get('/', "OrderController@index");
+Route::get('/guzzletest', "OrderController@guzzletest");

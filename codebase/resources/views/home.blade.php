@@ -8,6 +8,7 @@
     </div>
 @stop
 
+
 @section('content')
     <div class="home_content" id="home_page_content">
         <div class="sidebar-menu">

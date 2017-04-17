@@ -53,7 +53,7 @@
     @yield('content')
 
     <div class="clear"></div>
-    <footer>Copyrights &copy; {{ date('Y') }},cf RedHorse Inc.</footer>
+    <footer>Copyrights &copy; {{ date('Y') }}, RedHorse Inc.</footer>
 
 </div>
 
@@ -61,6 +61,7 @@
 <script src="{{$SITE_URL}}/js/jquery-ui.min.js"></script>
 <!-- custom js code start -->
 <script src="{{$SITE_URL}}/js/menu.js"></script>
+<script src="{{$SITE_URL}}/js/home.js"></script>s
 
 
 </body>
